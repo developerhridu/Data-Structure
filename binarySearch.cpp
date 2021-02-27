@@ -42,7 +42,7 @@ int main()
     cin >> a; // staring point from whare search will appear
 
     int b;
-    cin >> b; // endin point from whare search will end
+    cin >> b; // ending point from whare search will end
 
     for (int i = a; i <= b; i++)
     {
