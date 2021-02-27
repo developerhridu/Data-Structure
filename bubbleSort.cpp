@@ -20,5 +20,6 @@ int main()
     bubble_sort(vc);
     for (int v : vc)
         cout << v << " ";
+    
     return 0;
 }
