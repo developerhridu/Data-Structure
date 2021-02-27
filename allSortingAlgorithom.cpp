@@ -261,8 +261,8 @@ int main()
         MergeSort(arr, 0, sz[idx] - 1);
         MapSort(arr, sz[idx]);
         SetSort(arr, sz[idx]);
-        if (!sortValidity(arr, sz[idx]))
-            puts("ERROR");
+        // if (!sortValidity(arr, sz[idx]))
+        //     puts("ERROR");
         auto en = high_resolution_clock::now();
         auto duration = duration_cast<microseconds>(en - st);
         cout << sz[idx] << ": " << duration.count() << " " << duration.count() / 1000.0 << "\n";
