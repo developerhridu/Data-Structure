@@ -50,7 +50,7 @@ int main()
 
     // Printing sorted values
     for (auto it : arr)
-        cout << it << " " << endl;
+        cout << it << " ";
 
     // validity function is Checking if the array is sorted or not
     bool validity = isValid(arr);
